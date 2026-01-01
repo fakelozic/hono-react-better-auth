@@ -24,7 +24,7 @@ function TanStackQueryDemo() {
 					"radial-gradient(50% 50% at 95% 5%, #f4a460 0%, #8b4513 70%, #1a0f0a 100%)",
 			}}
 		>
-			<div className="w-full max-w-2xl p-8 rounded-xl backdrop-blur-md bg-black/50 shadow-xl border-8 border-black/10">
+			<div className="w-full max-w-2xl p-8 rounded-xl backdrop-blur-md bg-black/30 shadow-xl border-8 border-black/10">
 				<h1 className="text-2xl mb-4">
 					TanStack Query Simple Promise Handling
 				</h1>
@@ -37,7 +37,7 @@ function TanStackQueryDemo() {
 						data.map((todo) => (
 							<li
 								key={todo.id}
-								className="bg-white/10 border border-white/20 rounded-lg p-3 backdrop-blur-sm shadow-md"
+								className="bg-white/5 border border-white/15 rounded-lg p-3 backdrop-blur-sm shadow-md"
 							>
 								<span className="text-lg text-white">{todo.name}</span>
 							</li>
